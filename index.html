@@ -161,12 +161,11 @@
     </div>
     <css-doodle id="bg" click-to-update>
         <style>
-          @grid: 7 / 100vmax / #0a0c27;
-          @shape: bud(5) 5;
-          background: hsla(-@i(*4), 70%, 68%, @r.8);
-          transform:
-            scale(@r(.2, 1.5))
-            translate(@m2.@r(±50%));
+          @grid: 20 / 100vmax / #0a0c27;
+          @content: @unicode.r(0x2500, 0x257f);
+          color: hsla(@r360, 70%, 70%, @r.9);
+          font-size: 8vmin;
+          font-family: sans-serif;
         </style>
       </css-doodle>
   </body>
